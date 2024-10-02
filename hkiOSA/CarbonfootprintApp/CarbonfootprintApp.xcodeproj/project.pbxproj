@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		435A1DFD2CA63C0700F34DC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 435A1DDE2CA63C0600F34DC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 435A1DE52CA63C0600F34DC1;
+			remoteInfo = CarbonfootprintApp;
+		};
+		435A1E072CA63C0700F34DC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 435A1DDE2CA63C0600F34DC1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 435A1DE52CA63C0600F34DC1;
+			remoteInfo = CarbonfootprintApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		435A1DE62CA63C0600F34DC1 /* CarbonfootprintApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarbonfootprintApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		435A1DFC2CA63C0700F34DC1 /* CarbonfootprintAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarbonfootprintAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		435A1E062CA63C0700F34DC1 /* CarbonfootprintAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarbonfootprintAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		435A1E0E2CA63C0700F34DC1 /* Exceptions for "CarbonfootprintApp" folder in "CarbonfootprintApp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 435A1DE52CA63C0600F34DC1 /* CarbonfootprintApp */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		435A1DE82CA63C0600F34DC1 /* CarbonfootprintApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				435A1E0E2CA63C0700F34DC1 /* Exceptions for "CarbonfootprintApp" folder in "CarbonfootprintApp" target */,
+			);
+			path = CarbonfootprintApp;
+			sourceTree = "<group>";
+		};
+		435A1DFF2CA63C0700F34DC1 /* CarbonfootprintAppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CarbonfootprintAppTests;
+			sourceTree = "<group>";
+		};
+		435A1E092CA63C0700F34DC1 /* CarbonfootprintAppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CarbonfootprintAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		435A1DE32CA63C0600F34DC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435A1DF92CA63C0700F34DC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435A1E032CA63C0700F34DC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		435A1DDD2CA63C0600F34DC1 = {
+			isa = PBXGroup;
+			children = (
+				435A1DE82CA63C0600F34DC1 /* CarbonfootprintApp */,
+				435A1DFF2CA63C0700F34DC1 /* CarbonfootprintAppTests */,
+				435A1E092CA63C0700F34DC1 /* CarbonfootprintAppUITests */,
+				435A1DE72CA63C0600F34DC1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		435A1DE72CA63C0600F34DC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				435A1DE62CA63C0600F34DC1 /* CarbonfootprintApp.app */,
+				435A1DFC2CA63C0700F34DC1 /* CarbonfootprintAppTests.xctest */,
+				435A1E062CA63C0700F34DC1 /* CarbonfootprintAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		435A1DE52CA63C0600F34DC1 /* CarbonfootprintApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 435A1E0F2CA63C0700F34DC1 /* Build configuration list for PBXNativeTarget "CarbonfootprintApp" */;
+			buildPhases = (
+				435A1DE22CA63C0600F34DC1 /* Sources */,
+				435A1DE32CA63C0600F34DC1 /* Frameworks */,
+				435A1DE42CA63C0600F34DC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				435A1DE82CA63C0600F34DC1 /* CarbonfootprintApp */,
+			);
+			name = CarbonfootprintApp;
+			packageProductDependencies = (
+			);
+			productName = CarbonfootprintApp;
+			productReference = 435A1DE62CA63C0600F34DC1 /* CarbonfootprintApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		435A1DFB2CA63C0700F34DC1 /* CarbonfootprintAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 435A1E142CA63C0700F34DC1 /* Build configuration list for PBXNativeTarget "CarbonfootprintAppTests" */;
+			buildPhases = (
+				435A1DF82CA63C0700F34DC1 /* Sources */,
+				435A1DF92CA63C0700F34DC1 /* Frameworks */,
+				435A1DFA2CA63C0700F34DC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				435A1DFE2CA63C0700F34DC1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				435A1DFF2CA63C0700F34DC1 /* CarbonfootprintAppTests */,
+			);
+			name = CarbonfootprintAppTests;
+			packageProductDependencies = (
+			);
+			productName = CarbonfootprintAppTests;
+			productReference = 435A1DFC2CA63C0700F34DC1 /* CarbonfootprintAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		435A1E052CA63C0700F34DC1 /* CarbonfootprintAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 435A1E172CA63C0700F34DC1 /* Build configuration list for PBXNativeTarget "CarbonfootprintAppUITests" */;
+			buildPhases = (
+				435A1E022CA63C0700F34DC1 /* Sources */,
+				435A1E032CA63C0700F34DC1 /* Frameworks */,
+				435A1E042CA63C0700F34DC1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				435A1E082CA63C0700F34DC1 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				435A1E092CA63C0700F34DC1 /* CarbonfootprintAppUITests */,
+			);
+			name = CarbonfootprintAppUITests;
+			packageProductDependencies = (
+			);
+			productName = CarbonfootprintAppUITests;
+			productReference = 435A1E062CA63C0700F34DC1 /* CarbonfootprintAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		435A1DDE2CA63C0600F34DC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					435A1DE52CA63C0600F34DC1 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					435A1DFB2CA63C0700F34DC1 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 435A1DE52CA63C0600F34DC1;
+					};
+					435A1E052CA63C0700F34DC1 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 435A1DE52CA63C0600F34DC1;
+					};
+				};
+			};
+			buildConfigurationList = 435A1DE12CA63C0600F34DC1 /* Build configuration list for PBXProject "CarbonfootprintApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 435A1DDD2CA63C0600F34DC1;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 435A1DE72CA63C0600F34DC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				435A1DE52CA63C0600F34DC1 /* CarbonfootprintApp */,
+				435A1DFB2CA63C0700F34DC1 /* CarbonfootprintAppTests */,
+				435A1E052CA63C0700F34DC1 /* CarbonfootprintAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		435A1DE42CA63C0600F34DC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435A1DFA2CA63C0700F34DC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435A1E042CA63C0700F34DC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		435A1DE22CA63C0600F34DC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435A1DF82CA63C0700F34DC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435A1E022CA63C0700F34DC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		435A1DFE2CA63C0700F34DC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 435A1DE52CA63C0600F34DC1 /* CarbonfootprintApp */;
+			targetProxy = 435A1DFD2CA63C0700F34DC1 /* PBXContainerItemProxy */;
+		};
+		435A1E082CA63C0700F34DC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 435A1DE52CA63C0600F34DC1 /* CarbonfootprintApp */;
+			targetProxy = 435A1E072CA63C0700F34DC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		435A1E102CA63C0700F34DC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarbonfootprintApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.24.cs44643.CarbonfootprintApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		435A1E112CA63C0700F34DC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarbonfootprintApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.24.cs44643.CarbonfootprintApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		435A1E122CA63C0700F34DC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		435A1E132CA63C0700F34DC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		435A1E152CA63C0700F34DC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.24.cs44643.CarbonfootprintAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarbonfootprintApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarbonfootprintApp";
+			};
+			name = Debug;
+		};
+		435A1E162CA63C0700F34DC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.24.cs44643.CarbonfootprintAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarbonfootprintApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarbonfootprintApp";
+			};
+			name = Release;
+		};
+		435A1E182CA63C0700F34DC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.24.cs44643.CarbonfootprintAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarbonfootprintApp;
+			};
+			name = Debug;
+		};
+		435A1E192CA63C0700F34DC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nwmissouri.24.cs44643.CarbonfootprintAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarbonfootprintApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		435A1DE12CA63C0600F34DC1 /* Build configuration list for PBXProject "CarbonfootprintApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435A1E122CA63C0700F34DC1 /* Debug */,
+				435A1E132CA63C0700F34DC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		435A1E0F2CA63C0700F34DC1 /* Build configuration list for PBXNativeTarget "CarbonfootprintApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435A1E102CA63C0700F34DC1 /* Debug */,
+				435A1E112CA63C0700F34DC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		435A1E142CA63C0700F34DC1 /* Build configuration list for PBXNativeTarget "CarbonfootprintAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435A1E152CA63C0700F34DC1 /* Debug */,
+				435A1E162CA63C0700F34DC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		435A1E172CA63C0700F34DC1 /* Build configuration list for PBXNativeTarget "CarbonfootprintAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435A1E182CA63C0700F34DC1 /* Debug */,
+				435A1E192CA63C0700F34DC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 435A1DDE2CA63C0600F34DC1 /* Project object */;
+}
